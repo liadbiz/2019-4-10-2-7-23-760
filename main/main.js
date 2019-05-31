@@ -1,4 +1,7 @@
 module.exports = function main(inputs) {
-    // write your code here...
-    return "price";
+  distance = inputs["distance"];
+  parkTime = inputs["parkTime"];
+  if(distance < 2){
+    return Math.round(6 + parkTime * 0.25)
+  }
 };
